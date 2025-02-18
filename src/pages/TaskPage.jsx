@@ -14,7 +14,7 @@ function TaskPage() {
   }
   ///////////////////////////////////////////////////////////
   return (
-    <div className="h-screen w-screen bg-slate-500 p-6">
+    <div className="h-screen w-screen bg-slate-500 p-6 items-center flex flex-col space-y-6">
       <p>{navigate}</p>
       <div className="w-[500px] space-y-3">
         <div className=" flex justify-center relative">
@@ -24,7 +24,7 @@ function TaskPage() {
           >
             <ChevronLeftIcon />
           </button>
-          <Title>DETALHES DE TAREFAS</Title>
+          <Title>TASK DESCRIPTION</Title>
         </div>
 
         <div className="bg-slate-300 p-4 rounded-md shadow">
